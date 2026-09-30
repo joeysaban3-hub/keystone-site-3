@@ -7,6 +7,9 @@ Rules for working on this website project.
 - For normal website edits, work only on the local files first.
 - The default preview method is a local browser preview, not a Vercel preview.
 - After making local changes, start or use a local web server and give me the localhost URL to review in my browser.
+- After starting the local preview server, automatically open the localhost preview in my default browser.
+- If a local preview is already open/running, reuse that same preview instead of opening a new tab or starting a second server.
+- When local website files change, refresh/update the existing preview so I can review the latest version.
 - Do not create or push a preview branch unless I specifically ask for a Vercel preview or deployment test.
 - If I reject the changes or say to undo them, restore the local files back to the clean `main` version and confirm no test changes remain.
 
